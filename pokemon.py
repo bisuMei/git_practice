@@ -1,0 +1,4 @@
+def poska:
+    adlaldm
+    adlalsdl
+    
