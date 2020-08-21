@@ -37,10 +37,29 @@
 # print(selection_sort([5, 3, 2, 10 , 6]))
 
 
-def sum_(lst_):
-    if lst_ == []:
-        return 0
-    else:
-        return lst_[0] + sum_(lst[1:])
+# def sum_(lst_):
+#     if lst_ == []:
+#         return 0
+#     else:
+#         return lst_[0] + sum_(lst[1:])
+
+# def quicksort(lst):
+#     if len(lst) < 2:
+#         return lst
+#     else:
+#         base = lst[0]
+#         less = [i for i in lst if i < base]
+#         great = [i for i in lst if i > base]
+#     return quicksort(less) + [base] + quicksort(great)
+#
+# print(quicksort([2, 5, 8, 7, 4, 1]))
+
+a = {}
+a["start"] = {}
+a["start"]["a"] = 6
+
+print(a)
+print("as")
+
 
 
